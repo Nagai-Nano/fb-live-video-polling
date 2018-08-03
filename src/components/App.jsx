@@ -1,8 +1,17 @@
 import React, { Component } from 'react'
 
-import { Provider } from './Context'
+import { Provider, Consumer } from './Context'
 import config, { TITLE_POLL } from '../config'
 import Reaction from './Reaction'
+import Comment from './Comment'
+
+const DefaultCom = () => (
+  <div className="card">
+    <div className="card-body text-center">
+      <h3 className="m-0 text-muted">Chưa có bình luận nào</h3>
+    </div>
+  </div>
+)
 
 class App extends Component {
   render() {
@@ -25,6 +34,19 @@ class App extends Component {
                   <Reaction config={x} />
                 </div>
               ))}
+            </div>
+            <div className="row">
+              <div className="col">
+                <Consumer>
+                  {({ comment }) =>
+                    comment.length > 0 ? (
+                      <Comment comment={comment[0]} />
+                    ) : (
+                      <DefaultCom />
+                    )
+                  }
+                </Consumer>
+              </div>
             </div>
           </div>
         </div>
