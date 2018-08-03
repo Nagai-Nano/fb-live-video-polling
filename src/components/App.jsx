@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
 
+import { Provider } from './Context'
+
 class App extends Component {
   render() {
     return (
-      <div>App</div>
+      <Provider>
+        <div>App</div>
+      </Provider>
     )
   }
 }
