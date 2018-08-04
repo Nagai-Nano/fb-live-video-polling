@@ -9,7 +9,7 @@ Features:
 - Animations
 
 > Demo of this app
-> ![Screenshot](https://raw.githubusercontent.com/Nagai-Nano/fb-live-video-polling/master/screenshot.png)
+> ![Screenshot](https://raw.githubusercontent.com/Nagai-Nano/fb-live-video-polling/09d261b3c1cd194784edf2a8b6cef37ecdc8d720/screenshot.png)
 
 ## Prerequisite
 
