@@ -20,7 +20,7 @@ This app is required to have NodeJs. Make sure you have installed NodeJs in your
 - Clone this repository
 - Edit your configuration in the `config.js` file
 - You must provide the Facebook Graph API as well as the ID of your Live Video to make this app work. It is important
-- Run `npm install or yarn`
+- Run `npm install` or `yarn`
 - Run `npm start` and **go live!**
 
 If you have any issues feel free to message [me](https://www.facebook.com/Nagai.nano) on Facebook
