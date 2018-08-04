@@ -1,6 +1,6 @@
-# Facebook live video polling
+# Facebook Live Video Polling
 
-##### FBlive-video-polling is based on [Bootstrap](http://getbootstrap.com) and the [Facebook Graph API](https://developers.facebook.com/tools/explorer) to fetch data
+##### Fb-live-video-polling is based on [Bootstrap](http://getbootstrap.com) and the [Facebook Graph API](https://developers.facebook.com/tools/explorer) to fetch data
 
 Features:
 
